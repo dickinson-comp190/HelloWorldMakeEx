@@ -2,7 +2,7 @@
 
 Simple hello world example for the automake tools.
 
-This example has been adapted from [The magic behind configure, make, make install](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install) by George Brocklehurst.
+This example has been adapted from [The magic behind configure, make, make install](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install) by George Brocklehurst, with additions for `gettext` from [A Quick Gettext Tutorial](https://www.labri.fr/perso/fleury/posts/programming/a-quick-gettext-tutorial.html) by Emmanuel Fleury.
 
 ## Creating a Distribution
 
