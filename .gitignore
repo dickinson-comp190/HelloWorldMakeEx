@@ -1,0 +1,16 @@
+.deps
+aclocal.m4
+autom4te.cache
+compile
+config.log
+config.status
+configure
+configure.ac
+depcomp
+helloworld
+install-sh
+main.o
+Makefile
+Makefile.in
+missing
+
