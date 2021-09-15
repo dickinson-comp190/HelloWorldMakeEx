@@ -4,5 +4,4 @@ config.status
 gui-program
 gui_program-gui.o
 Makefile
-Makefile.in
 .deps
