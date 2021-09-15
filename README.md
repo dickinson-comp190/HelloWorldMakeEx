@@ -1,8 +1,15 @@
 # HelloWorldMakeEx
 
-Simple hello world example for the automake tools.
+Simple example that uses the automake tools to build a gtk hello world application.  
 
-This example has been adapted from [The magic behind configure, make, make install](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install) by George Brocklehurst, with additions for `gettext` from [A Quick Gettext Tutorial](https://www.labri.fr/perso/fleury/posts/programming/a-quick-gettext-tutorial.html) by Emmanuel Fleury.
+It is intended just as an example to:
+* Introduce the `./configure`, `make`, `make install` incantation.
+* Practice installing a dependency (gtk)
+
+This example has been adapted from and incorporated code from:
+* [Creating a GTK Project using GNU Autotools](https://wiki.gnome.org/Attic/Create%20a%20GTK%20Project%20using%20autotools) by by WilliamJonMcCann.
+* [The magic behind configure, make, make install](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install) by George Brocklehurst.
+* [Creating a C/C++ GUI with GTK+](https://www.codeguru.com/cplusplus/creating-a-c-c-gui-with-gtk/) by Manoj Debnath.
 
 ## Creating a Distribution
 
