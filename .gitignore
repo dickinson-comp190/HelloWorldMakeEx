@@ -1,14 +1,8 @@
-aclocal.m4
-auto4te.cache
-compile
+autom4te.cache
 config.log
 config.status
-configure
-decomp
-guii-program
+gui-program
 gui_program-gui.o
-install-sh
 Makefile
 Makefile.in
-missing
 .deps
