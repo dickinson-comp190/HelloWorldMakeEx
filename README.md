@@ -11,24 +11,20 @@ This example has been adapted from and incorporated code from:
 * [The magic behind configure, make, make install](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install) by George Brocklehurst.
 * [Creating a C/C++ GUI with GTK+](https://www.codeguru.com/cplusplus/creating-a-c-c-gui-with-gtk/) by Manoj Debnath.
 
-## Creating a Distribution
-
-As a developer, the steps used to create a distribution are:
-```
-aclocal # Set up an m4 environment
-autoconf # Generate configure from configure.ac
-automake --add-missing # Generate Makefile.in from Makefile.am
-./configure # Generate Makefile from Makefile.in
-make distcheck # Use Makefile to build and test a tarball to distribute
-```
-
 ## Building from Source:
 
-Given a distribution, the steps to build the binary from sourse are:
-To build a binary from the distribution:
+Given a distribution or a clone of this repository, the steps to build the binary from sourse are:
 ```
 ./configure # Generate Makefile from Makefile.in
 make # Use Makefile to build the program
 make install # Use Makefile to install the program
 ```
 
+## Updating Makefile.in:
+
+As a developer, the steps used to update repo if changes are made to `configure.ac` or `Makefile.am`:
+```
+aclocal # Set up an m4 environment
+autoconf # Generate configure from configure.ac
+automake --add-missing # Generate Makefile.in from Makefile.am
+```
