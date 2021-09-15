@@ -1,5 +1,18 @@
-AC_INIT([helloworld], [0.1], [george@thoughtbot.com])
-AM_INIT_AUTOMAKE
+#AC_PREREQ(2.60)
+AC_INIT([GtkWinMakeEx], [0.1], [name@domain.com])
+#AC_CONFIG_AUX_DIR([build-aux])
+AM_INIT_AUTOMAKE([1.9.6 -Wall -Werror dist-bzip2 foreign])
+
 AC_PROG_CC
-AC_CONFIG_FILES([Makefile])
+# Compiling sources with per-target flags requires AM_PROG_CC_C_O
+#AM_PROG_CC_C_O
+#AC_PROG_INSTALL
+#AC_PROG_LIBTOOL
+
+AM_PATH_GTK_2_0([2.10.0],,AC_MSG_ERROR([Gtk+ 2.10.0 or higher required.]))
+
+#AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_FILES([
+        Makefile
+])
 AC_OUTPUT
